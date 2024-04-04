@@ -53,6 +53,10 @@ void LinearSearch()
             }
             i++; //step 4
                 }
+                if (i == n) //step 5 
+                    cout << "\n" << item << " not found in the array\n";
+
+
 
 
       

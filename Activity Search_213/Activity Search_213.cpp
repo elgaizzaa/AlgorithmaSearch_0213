@@ -58,17 +58,19 @@ void LinearSearch()
             cout << "\nNumber of comparison : " << ctr << endl;
             cout << "\nContinue search (y/n) : ";
             cin >> ch;
-        } while ((ch == 'y') || (ch == 'Y'));
-    
-        void display();
+        }
+       } while ((ch == 'y') || (ch == 'Y'));
+    }
+        void display()
     {
         cout << "Array elements are : ";
         for (i = 0; i < n; i++)
             cout << arr[i] << " ";
         cout << endl;
     }
-
     int main()
     {
-        std::cout << "Hello World!\n";
+         input();
+        LinearSearch();
+        display();
     }

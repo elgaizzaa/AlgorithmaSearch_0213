@@ -31,7 +31,6 @@ void input()
 void LinearSearch()
 {
     char ch;
-    int ctr;
 }
     
 

@@ -38,7 +38,8 @@ void LinearSearch()
         cout << "\nEnter the elemnt you want to search : ";
         cin >> item;
         ctr = 0;
-       
+        i = 0; //step 2 
+      
 
     int main()
     {

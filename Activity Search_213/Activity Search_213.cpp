@@ -37,15 +37,10 @@ void LinearSearch()
     {
         cout << "\nEnter the elemnt you want to search : ";
         cin >> item;
-    }
-}
+        ctr = 0;
+       
 
-    
-
-
-
-
-int main()
+    int main()
     {
         std::cout << "Hello World!\n";
     }
